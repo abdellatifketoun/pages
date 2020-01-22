@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#cont{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+}
+#infouser{
+    background-color: olivedrab;
+    width: 100%;
+    height: 20vh; 
+    border-radius: 0px 0px 15px 15px;
+box-shadow: silver 0px 0px 20px;
+border-bottom: white 3px solid;
+position: fixed;
+display: flex;
+align-items: center;
+}
+#picuser{
+    left: 30px;
+    width: 25%;
+    height: 17vh;
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+    float: right;
+    border: solid black 1px;
+    box-shadow: white 0px 0px 13px;
+}
+img{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+h1{
+color: black;
+font-size: 1.5em;
+text-transform: uppercase;
+font-family: fantasy;
+letter-spacing: 3px;
+word-spacing: 1px;
+}
+p{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#text{
+display: flex;
+align-items: center;
+flex-direction: column;
+position: relative;
+left: 60px;
+}
