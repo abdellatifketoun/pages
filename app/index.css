@@ -69,7 +69,7 @@ p{
         bottom: 100px;
         width: 50px;
         height: auto;
-        animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        animation: shake-bottom  2s cubic-bezier(0.455, 0.030, 0.515, 0.955)  both;
 
     }
     
@@ -121,13 +121,12 @@ p{
 .info{
   width: 100%;
   height: 100vh;
-background: url(https://previews.123rf.com/images/pbardocz/pbardocz1905/pbardocz190501155/122656850-black-and-white-vector-city-map-of-rome-with-well-organized-separated-layers-.jpg);
+background: black;
 background-size: cover;
 background-repeat: no-repeat;
 display: flex;
-align-items: center;
+align-items: flex-start;
 justify-content: center;
-flex-direction: column;
       }
 
       h2{
@@ -138,22 +137,25 @@ flex-direction: column;
         text-transform: capitalize;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
-form{
-  margin-top: 30px;
 
-}
-input{
-  margin-top: -20px;
-  padding: 8px;
-  margin: 10px;
-  background: black;
-  color: white;
-  font-size: 1em;
-  font-family: sans-serif;
-  box-shadow: 0px 0px 5px white;
-}
-label{
-  color: white;
-  text-shadow: 0px 0px 30px black;
-  text-transform: capitalize;
-}
+      #close{
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        padding: 3px;
+        margin: 10px;
+        width: 30px;
+        height: auto;
+      }
+
+      .pip{
+        color: white;
+        text-transform: capitalize;
+        padding: 20px;
+        margin: 25px;
+        text-align: center;
+        line-height: 25px;
+      }
+      a{
+        position: relative;
+      }
