@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#home{
+  width: 100%;
+  height: 100vh;
+background: wheat; 
+ display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+fieldset{
+  padding: 20px;
+  background: rgba(255, 0, 0, 0.2);;
+}
+
+#aler{
+  display: none;
+  color: black;
+  
+}
+button{
+  padding: 2px;
+align-items: center;
+}
+#admi{
+  width: 100%;
+  height: 100vh;
+  background: red;
+  position: absolute;
+  display: none;
+}
+.table{
+  width: 100%;
+  height:  10vh;
+  background: black;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.bo{
+  width: 25%;
+  height: 73px;
+  position: relative;
+  background: white;
+  box-shadow: gray 0px 0px 15px;
+  border: solid 1px gray;
+ 
+}
+button{
+  color: black;
+  background: silver;
+  text-transform: uppercase;
+}
