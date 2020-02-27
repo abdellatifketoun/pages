@@ -160,3 +160,116 @@ h1{
 .login-box a:hover{
   color:#39dc79;
 }
+
+
+@media only screen and (width: 320px) and (height: 480px)  {
+  h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+   color: yellow;
+    font-size:22px;
+    }
+    #log{
+      width: 90%;
+      height: 70vh;
+      border: solid 2px black;
+      color: black;
+      background-color: white;
+      font-size: 1.5em;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+      box-shadow: gray 0px 0px 15px;
+      }
+      
+      
+      #sendCtrls{
+        width: 90%;
+        height: 5vh;
+        margin: 10px;
+      display: inline-flex;
+      }
+      #text{
+        width: 90%;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        border-radius: 50px;
+        position: relative;
+        box-shadow: gray 0px 0px 5px;
+      
+      }
+      #myBtn{
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 30px 30px 0px 40px;
+        box-shadow: gray 0px 0px 5px;
+        margin: 4px 2px;
+        padding: 15px 20px;
+        position: relative;
+        display: inline-block;
+      text-align: center;
+      float: right;
+      font-weight: bold;
+      background-color: #1c8adb;
+      font-size: 1em;
+      line-height: 0px;
+      cursor: pointer;
+      }
+
+}
+
+@media only screen and (width: 375px) and (height: 667px)  {
+  h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+   color: red;
+    font-size:22px;
+    }
+    #log{
+      width: 90%;
+      height: 80vh;
+      border: solid 2px black;
+      color: black;
+      background-color: white;
+      font-size: 1.5em;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+      box-shadow: gray 0px 0px 15px;
+      }
+      
+      
+      #sendCtrls{
+        width: 90%;
+        height: 5vh;
+        margin: 10px;
+      display: inline-flex;
+      }
+      #text{
+        width: 90%;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        border-radius: 50px;
+        position: relative;
+        box-shadow: gray 0px 0px 5px;
+      
+      }
+      #myBtn{
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 30px 30px 0px 40px;
+        box-shadow: gray 0px 0px 5px;
+        margin: 4px 2px;
+        padding: 15px 20px;
+        position: relative;
+        display: inline-block;
+      text-align: center;
+      float: right;
+      font-weight: bold;
+      background-color: #1c8adb;
+      font-size: 1em;
+      line-height: 0px;
+      cursor: pointer;
+      }
+
+}
