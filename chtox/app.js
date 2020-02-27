@@ -1,13 +1,22 @@
 
+
+document.getElementById("boto").addEventListener("click", function(){
+    document.getElementById('twinstwo').style.display='none';
+
+
+
     var sock = new WebSocket("ws://localHost:5001");
     
     var log = document.getElementById('log');
     
-    var name = prompt('Your Name Here .. ?');
+    //var name = prompt('Your Name Here .. ?');
+
+    var name = document.getElementById('name').value;
     
-    
+
+
     sock.onopen = function(){
-    
+
         sock.send(JSON.stringify({
           type: "name",
           data: name
@@ -15,14 +24,17 @@
         }));
     
     }
-    
-    
+
+
+
+
     sock.onmessage = function(event) {
         console.log(event);
         var json = JSON.parse(event.data);
        log.innerHTML += json.name+": "+json.data+"<br>";
         //log.innerHTML += event.data+"<br>";
     }
+
     
     document.getElementById("myBtn").addEventListener("click", function(){
     var text = document.getElementById('text').value;
@@ -39,4 +51,4 @@
     
     });
     
-    
+});
