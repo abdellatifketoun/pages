@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+#home{
+    
+    width: 23%;
+    height: 50vh;
+    background-color: rgba(83, 91, 110, 0.31);
+    border-radius: 5px;
+    overflow: scroll;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+padding: 5px;
+}
+#home p{
+color: black;
+text-transform: uppercase;
+}
+
+#home2{
+    width: 45%;
+    height: 80vh;
+    background-color: rgba(125, 124, 146, 0.13);
+    border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#home3{
+    width: 25%;
+    height: 60vh;
+    background-color: rgba(83, 91, 110, 0.31);
+    border-radius: 5px;
+    overflow: scroll;
+    display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+
+}
+#nav{
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: rgba(125, 124, 146, 1);
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#nav h1{
+color: white;
+margin-left: 5px;
+font-size: 30px;
+letter-spacing: 2px;
+border-bottom: 2px darkcyan solid;
+}
+#nav a{
+    color: black;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    #nav a:hover{
+        color: white;
+        }
+
+
+#footer{
+    position: fixed;
+    bottom: 0em;
+    background-color: transparent;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: row;
+}
+#footer p{
+text-transform: capitalize;
+
+}
+#check{
+    color: black;
+    font-size: 1em;
+    padding: 3px;
+}
+
+
+
+
+
+@media only screen and (width: 375px) and (height: 812px)  {
+    
+  
+  }
+  
+  
+  @media only screen and (width: 320px) and (height: 480px)  {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    section{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #home{
+        margin-top: 25px;
+        width: 98%;
+        height: 40vh;
+        background-color: rgba(83, 91, 110, 0.31);
+        border-radius: 5px;
+        overflow: scroll;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    padding: 5px;
+    }
+    #home p{
+    color: black;
+    text-transform: uppercase;
+    }
+    
+    #home2{
+        margin-top: 4px;
+        width: 98%;
+        height: 50vh;
+        border-radius: 5px;
+        background-color: rgba(125, 124, 146, 0.13);
+        border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    #home3{
+        margin-top: 5px;
+        width: 98%;
+        height: 50vh;
+        background-color: rgba(83, 91, 110, 0.31);
+        border-radius: 5px;
+        overflow: scroll;
+        display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    
+    }
+    #nav{
+        top: 0;
+        width: 100%;
+        height: 8vh;
+        background-color: rgba(125, 124, 146, 1);
+        position: fixed;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    #nav h1{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-bottom: 2px darkcyan solid;
+    }
+    #nav a{
+        color: black;
+        margin-left: 5px;
+        text-decoration: none;
+        font-size: 18px;
+        }
+        #nav a:hover{
+            color: white;
+            }
+    
+    
+    #footer{
+        position: fixed;
+        bottom: 0em;
+        background-color: transparent;
+        width: 100%;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    flex-direction: row;
+    }
+    #footer p{
+    text-transform: capitalize;
+    font-size: 10px;
+    }
+    #footer a{
+        text-decoration: none;
+        font-size: 11px;
+
+    }
+    #check{
+        color: black;
+        font-size: 1em;
+        padding: 3px;
+    }
+    
+  }
+  
