@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <title>ai</title>
+</head>
+
+<body>
+
+<section>
+  <div id='log_txt' class='terminal'>&nbsp;<br>&nbsp;<br></div>
+
+    <div id='input_div' style='background:white; border:3px solid rgba(255,255,255,0.5)'>
+      <input id='in_txt' value='' placeholder='Say something!' onKeyPress='getKeyStroke(event);'>
+      <button onClick='console.log("OK @ button"); parseInput(document.querySelector("#in_txt").value);'>Chat</button>
+    </div>
+    <br>
+    </section>
+
+    <script src="pagemove.js"></script>
+
+</body>
+
+</html>
